@@ -1,3 +1,6 @@
+# Priority values above max_priority will be refused.
+max_priority = 9001
+
 [github]
 
 # Information for securely interacting with GitHub. These are found/generated
@@ -9,9 +12,6 @@ access_token = ""
 # A GitHub oauth application for this instance of homu:
 app_client_id = ""
 app_client_secret = ""
-
-# Priority values above max_priority will be refused.
-max_priority = 9001
 
 [git]
 
